@@ -1,6 +1,10 @@
 config_version = 15
 
 [bar.default]
+color = "#f2f2f2"
+icon_color = "#505a60"
+capsule_foreground = "#f2f2f2"
+border = "#505a60"
 end = [ "media", "tray", "notifications", "clipboard", "network", "bluetooth", "brightness", "battery", "volume" ]
 margin_ends = 0
 padding = 0
