@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.bak*
+*.swp
+*~
+.env
+.env.*
+backups/
+clipboard/
+notification_history.json
+recently_used.json
+usage_counts.json
+state.toml
