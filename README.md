@@ -53,18 +53,3 @@ Arquivos existentes são preservados em `~/.local/share/nocniri-matrix/backups/`
 Depois, reinicie o Noctalia. O Niri recarrega sua configuração automaticamente.
 As preferências da tela de bloqueio referenciam `eDP-1`; ajuste para seu monitor se necessário.
 O teclado gráfico usa a variante ThinkPad, enquanto o console salvo em `system-reference/` usa `KEYMAP=br` e mantém os valores originais do sistema.
-
-## Publicar no GitHub
-
-Configure sua identidade real e faça o primeiro commit:
-
-```sh
-git config user.name "SEU NOME"
-git config user.email "SEU EMAIL OU EMAIL NOREPLY DO GITHUB"
-git add .
-git commit -m "Adiciona configurações Niri e Noctalia"
-gh auth login
-gh repo create nocniri-matrix --private --source=. --remote=origin --push
-```
-
-O comando acima cria um repositório privado. Para disponibilizá-lo publicamente, revise os arquivos e escolha `--public` no lugar de `--private`.
