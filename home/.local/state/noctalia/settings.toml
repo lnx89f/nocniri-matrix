@@ -105,3 +105,6 @@ show_label = false
 
 [widget.volume]
 show_label = false
+
+[widget.tray]
+icon_color = "#f2f2f2"
