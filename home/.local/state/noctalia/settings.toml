@@ -57,8 +57,7 @@ widget_order = [ "lockscreen-login-box@eDP-1" ]
         show_weather = true
 
 [shell]
-app_icon_colorize = true
-app_icon_color = "#f2f2f2"
+app_icon_colorize = false
 polkit_agent = true
 
     [shell.launcher]
