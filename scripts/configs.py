@@ -12,7 +12,7 @@ FILES = [
     '.config/alacritty/alacritty.toml',
     '.config/autostart/polkit-gnome-authentication-agent-1.desktop',
     '.local/state/noctalia/settings.toml',
-    '.local/state/noctalia/community-palettes/GitHub%20Dark.json',
+    '.config/noctalia/palettes/Matrix-Verde-Medio.json',
     'Imagens/Papeis-de-parede/via-lactea-matrix.png',
     'Imagens/wallpapers/colina-windows-xp-noite.png',
 ]

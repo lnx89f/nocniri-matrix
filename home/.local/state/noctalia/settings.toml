@@ -64,10 +64,11 @@ polkit_agent = true
     open_near_click_control_center = true
 
 [theme]
+custom_palette = "Matrix-Verde-Medio"
 builtin = "Catppuccin"
 community_palette = "GitHub Dark"
 mode = "dark"
-source = "community"
+source = "custom"
 wallpaper_scheme = "m3-monochrome"
 
 [wallpaper.default]

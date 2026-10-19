@@ -6,10 +6,12 @@ Backup das configurações pessoais do Niri e Noctalia, com visual Matrix.
 
 - Niri: layout, janelas, atalhos, inicialização do Noctalia e teclado `br` / `thinkpad`.
 - Overview: **Super + '**. Terminal: **Super + Enter**. Launcher: **Super + Espaço**.
-- Noctalia: barra, dock, tela de bloqueio, preferências e paleta GitHub Dark.
+- Noctalia: barra, dock, tela de bloqueio, preferências e paleta personalizada local `Matrix-Verde-Medio`.
 - Wallpaper ativo `via-lactea-matrix.png` e alternativa `colina-windows-xp-noite.png`.
 - Alacritty e configuração de autostart do agente Polkit.
 - `system-reference/`: configuração de console e idioma para consulta; não é aplicada pelo script.
+
+A paleta do Noctalia usa destaque verde `#009926`, alertas verde claro `#99FFB3`, texto comum `#F2F2F2` e texto destacado `#FFFFFF`. Bordas e elementos secundários usam o cinza `#505A60` do Niri, mantendo os fundos escuros. A paleta fica em `~/.config/noctalia/palettes/` e usa a origem `custom`, evitando que atualizações da paleta online sobrescrevam as cores.
 
 Ambiente de origem: openSUSE Tumbleweed, Niri 26.04, Noctalia v5.3.0.
 Dependências: Python 3.11+, Niri, Noctalia, Alacritty, Nautilus, xkeyboard-config e os serviços de áudio/rede/Bluetooth usados pelo desktop. Os pacotes não são instalados por este projeto.
