@@ -588,3 +588,14 @@ binds {
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
 }
+
+// Escala da tela: 100%.
+output "eDP-1" {
+    scale 1
+}
+
+// Tamanho do ponteiro em pixels.
+cursor {
+    xcursor-theme "Adwaita"
+    xcursor-size 24
+}
